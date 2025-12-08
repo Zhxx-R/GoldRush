@@ -1,0 +1,6 @@
+运行train.py
+
+修改一下: config.py    LOG_BASE_PATH =  # 日志路径
+
+use.py: 本地模拟测试环境
+battle_env.py: 环境   奖励: _calculate_reward  zxx本地修改了一下reward：第300轮 reward+=自己总金币/100  这里的文件没改
